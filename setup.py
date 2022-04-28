@@ -14,7 +14,7 @@ with open(path.join(file_path, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 package_metadata = {
-    'name': 'django-active-campaign',
+    'name': 'dj-active-campaign',
     'version': VERSION,
     'description': 'A Django Implementation of the Active Campaign Python SDK',
     'long_description': long_description,
@@ -55,7 +55,6 @@ setup(
             'setuptools',
             'wheel',
             'twine',
-            'm2r'
             ],
         'docs': [
             'coverage==4.4.1',

@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'develop.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": os.getenv('PSQL_NAME', "pypackage"),
+        "NAME": os.getenv('PSQL_NAME', "active_campaign"),
         "USER": os.getenv('PSQL_USER', "django"),
         "PASSWORD": os.getenv('PSQL_PASSWORD', "password"),
         "HOST": os.getenv('PSQL_HOST', "localhost"),
