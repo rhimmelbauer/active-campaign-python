@@ -37,7 +37,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.6",
     install_requires=[
-        "Django>=2.1,<4.0",
+        "Django>=3,<4.0",
         "django-autoslug",
         "django-site-configs",
         "django-integrations"
