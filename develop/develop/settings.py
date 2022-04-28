@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
-    'django-active-campaign',
+    'django_active_campaign',
 ]
 
 MIDDLEWARE = [
