@@ -18,5 +18,5 @@ from django.urls import include, path, re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('pypackage.urls') ),
+    path('', include('django_active_campaign.urls') ),
 ]

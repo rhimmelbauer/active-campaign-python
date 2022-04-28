@@ -1,9 +1,9 @@
 from django.urls import path, re_path
-from pypackage import views
+from django_active_campaign import views
 
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='pypackage-index'),
-    path('simple/', views.PackageView.as_view(), name='pypackage-simple'),
-    path('simple/<slug:slug>/', views.VersionView.as_view(), name='pypackage-simple-version'),
+    # path('', views.IndexView.as_view(), name='django_active_campaign-index'),
+    # path('simple/', views.PackageView.as_view(), name='django_active_campaign-simple'),
+    # path('simple/<slug:slug>/', views.VersionView.as_view(), name='django_active_campaign-simple-version'),
 ]
 
