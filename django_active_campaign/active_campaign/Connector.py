@@ -1,6 +1,6 @@
 import json
-from Config import ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY
 import urllib2
+
 
 class Connector():
 

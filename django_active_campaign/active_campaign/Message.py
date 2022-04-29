@@ -1,9 +1,7 @@
-
-from Config import ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY
-from ActiveCampaign import ActiveCampaign
 import json
 import urllib2, urllib
-import datetime
+
+from ActiveCampaign import ActiveCampaign
 
 class Message(ActiveCampaign):
 

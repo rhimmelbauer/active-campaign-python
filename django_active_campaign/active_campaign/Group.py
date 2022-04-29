@@ -1,8 +1,7 @@
-
-from Config import ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY
-from ActiveCampaign import ActiveCampaign
 import json
 import urllib2, urllib
+
+from ActiveCampaign import ActiveCampaign
 
 class Group(ActiveCampaign):
 
