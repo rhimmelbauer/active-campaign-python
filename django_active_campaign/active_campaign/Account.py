@@ -57,10 +57,3 @@ class Account(ActiveCampaign):
         request_url = '%s&api_action=account_view&api_output=%s' % (self.url, self.output)
         response = json.loads(urllib2.urlopen(request_url).read())
         return response
-        
-        
-if __name__ == '__main__':
-    ac = ActiveCampaign(ACTIVECAMPAIGN_URL,  ACTIVECAMPAIGN_API_KEY)
-
-    ## view
-    #print ac.api('account/view')
